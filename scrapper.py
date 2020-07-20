@@ -1,6 +1,6 @@
 from bs4 import BeautifulSoup
 import requests
-
+#i really like this new feature!
 main_url = 'https://news.ycombinator.com'
 page = requests.get(main_url)
 soup = BeautifulSoup(page.content, 'html.parser')
